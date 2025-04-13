@@ -1,4 +1,4 @@
-# 1. (Roary)[https://sanger-pathogens.github.io/Roary/]
+# 1. [Roary](https://sanger-pathogens.github.io/Roary/)
 ```
 conda create -n roary
 conda activate roary
@@ -6,7 +6,7 @@ conda install roary
 conda install prokka
 coonda install -c bioconda iqtree
 ```
-(Prokka)[https://github.com/tseemann/prokka] and iqtree2 don't come with roary, so install it seperately.    
+[Prokka](https://github.com/tseemann/prokka) and iqtree2 don't come with roary, so install it seperately.    
 Prokka is the annotator and iqtree is used to generate a tree file.      
 ```
 for sample in DL1_bin26.fa GCA_003566575.fna GCA_020386575.fna GCF_023983615.fna \
