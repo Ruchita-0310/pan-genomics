@@ -25,8 +25,8 @@ roary -f ./output -e -n -v gff/*.gff
 Roary outputs:       
 1. summary_statistics.txt: Number of genes in the core and accessory.
 2. gene_presence_absence.csv: gene presence and absence spreadsheet lists each gene and which samples it is present in.
-3. core_gene_alignment.aln: use this file to create a tree file.       
-Generating a tree file       
+3. core_gene_alignment.aln: use this file to create a tree file.
+To generating a tree file         
 ```
 iqtree -s core_gene_alignment.aln 
 ```        
