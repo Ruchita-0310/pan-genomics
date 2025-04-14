@@ -32,7 +32,7 @@ iqtree -s core_gene_alignment.aln
 ```        
 Output: .treefile: the ML tree in NEWICK format, which can be visualized by any supported tree viewer programs like FigTree or iTOL.                            
 Tree is UNROOTED. In iTOL, re-root the tree, and download the new tree file.         
-Visulalization: using roary_plots.py. You'll have to run it in your own terminal.              
+Visulalization: using roary_plots.py. You can run it in your own terminal.                 
 ```
 python3 roary.py newick.txt gene_presence_absence.csv   
 ```
