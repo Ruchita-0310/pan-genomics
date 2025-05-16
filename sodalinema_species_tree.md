@@ -20,9 +20,9 @@ gtdbtk align --identify_dir identify3_output/ --out_dir align3_output --cpus 3
 ```
 This will produce ```concatenated_alignment``` which is used on future analysis.     
 # 4. MEGA 12
-upload your MSA to MEGA 12 it will generate ```PhyloAnalysis_bgs.mdsx```          
-Open phylogenetic analysis and upload .mdsx file, construct a maximum likelihood tree, use LG + G mode, ultrafast bootstrap 100. It will take some time, once the tree is generated, save the file as .newick file.           
-To have a better visualization of the tree, open the newick file in iTOL.       
+1. Upload your MSA to MEGA 12 it will generate ```PhyloAnalysis_bgs.mdsx```          
+2. Open phylogenetic analysis and upload .mdsx file, construct a maximum likelihood tree, use LG + G mode, ultrafast bootstrap 100. It will take some time, once the tree is generated, save the file as .newick file.           
+3. To have a better visualization of the tree, open the newick file in iTOL.       
 
 # 5. fastANI
 ```
