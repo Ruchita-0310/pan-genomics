@@ -1,7 +1,7 @@
 # 1. create database
 ```
-input_dir="/Users/ruchitasolanki/Downloads/fna"
-output_dir="/Users/ruchitasolanki/Downloads/fna"
+input_dir="/path/to/fna/files"
+output_dir="/path/to/fna/files"
 
 for file in "$input_dir"/*.fna; do
 	base=$(basename "$file" .fna)
