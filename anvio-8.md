@@ -1,6 +1,6 @@
 # 1. create database
 ```
-nput_dir="/Users/ruchitasolanki/Downloads/fna"
+input_dir="/Users/ruchitasolanki/Downloads/fna"
 output_dir="/Users/ruchitasolanki/Downloads/fna"
 
 for file in "$input_dir"/*.fna; do
