@@ -17,7 +17,6 @@ done
 ```
 anvi-run-ncbi-cogs -c contig.db --search-with blastp  --num-threads 8
 anvi-run-hmms -c contig.db -T 1
-anvi-run-ncbi-cogs -c contig.db -T 40
 anvi-run-pfams -c contig.db -T 40
 anvi-run-scg-taxonomy -c contig.db -T 40
 anvi-run-kegg-kofams -c contig.db -T 40
