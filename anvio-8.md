@@ -24,7 +24,7 @@ anvi-run-kegg-kofams -c contig.db -T 40
 # 3. external genomes-storage database 
 ```
 #create external-genomes.txt a tab delimited file with name of the contigs and its path
-anvi-get-sequences-for-hmm-hits -external-genomes external-genomes.txt -o concatenated-proteins_Bacteria_71.fa --hmm-source Bacteria_71 --return-best-hit --get-aa-sequences --concatenate
+anvi-get-sequences-for-hmm-hits -e external-genomes.txt -o concatenated-proteins_Bacteria_71.fa --hmm-source Bacteria_71 --return-best-hit --get-aa-sequences --concatenate
 anvi-gen-genomes-storage -e external-genomes.txt -o GENOMES.db
 ```
 # 4. pangenomics
