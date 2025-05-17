@@ -25,10 +25,10 @@ anvi-run-kegg-kofams -c contig.db -T 40
 ```
 #create external-genomes.txt a tab delimited file with name of the contigs and its path
 anvi-get-sequences-for-hmm-hits -external-genomes external-genomes.txt -o concatenated-proteins_Bacteria_71.fa --hmm-source Bacteria_71 --return-best-hit --get-aa-sequences --concatenate
+anvi-gen-genomes-storage -e external-genomes.txt -o GENOMES.db
 ```
 # 4. pangenomics
 ```
-anvi-gen-genomes-storage -e external-genomes.txt -o GENOMES.db
 anvi-pan-genome -g GENOMES.db --project-name "Pan" --output-dir Pan --num-threads 40 --minbit 0.5 --mcl-inflation 10
 # prepare a file named "misc-data-layers.txt" which includes the category of the samples, like this:
 samples categorical
