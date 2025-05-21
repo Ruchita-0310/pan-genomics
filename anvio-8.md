@@ -30,6 +30,10 @@ anvi-gen-genomes-storage -e external-genomes.txt -o GENOMES.db
 # 4. pangenomics
 ```
 anvi-pan-genome -g GENOMES.db --project-name "Pan" --output-dir Pan --num-threads 40 --minbit 0.5 --mcl-inflation 10
+#display
+anvi-display-pan -g soda_GENOMES.db -p Pan/Pan-PAN.db
+#rarefaction curve
+anvi-compute-rarefaction-curves -p PAN/Pan-dev.db --iterations 100 -o Soda
 # prepare a file named "misc-data-layers.txt" which includes the category of the samples, like this:
 samples categorical
 contig_name        c1
